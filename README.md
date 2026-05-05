@@ -7,3 +7,7 @@
 
 
 We build a GO application from Scratch
+
+Goose Commands
+goose -dir migrations postgres "postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable" up
+goose -dir migrations postgres "postgres://postgres:postgres@localhost:5432/postgres?sslmode=disable" down
